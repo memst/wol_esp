@@ -40,7 +40,7 @@ void wakeMyPC() {
 void setup() {
   Serial.begin(115200);
 
-  Serial.print("MAC address of ESP32: ")
+  Serial.print("MAC address of ESP32: ");
   Serial.println(WiFi.macAddress());
 
   // Connect to Wi-Fi network with SSID and password
